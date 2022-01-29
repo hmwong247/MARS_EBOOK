@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MARS_EBOOK">
         <activity
-            android:name=".ViewBookActivity"
-            android:exported="false" />
-        <activity
             android:name=".UploadLinkActivity"
             android:exported="false" />
         <activity
