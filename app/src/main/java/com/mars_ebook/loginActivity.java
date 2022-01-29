@@ -9,7 +9,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class loginActivity extends AppCompatActivity {
-    private Button loginButton ;
+    private Button loginButton;
+    private Button signUpButton;
     private EditText username;
     private EditText password;
 
@@ -19,8 +20,17 @@ public class loginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         loginButton=(Button)findViewById(R.id.loginButton);
+        signUpButton=(Button)findViewById(R.id.signUpButton);
         username=(EditText) findViewById(R.id.editTextEmail);
         password=(EditText) findViewById(R.id.editTextPassword);
+
+        signUpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(loginActivity.this,SignUpActivity.class);
+                startActivity(intent);
+            }
+        });
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +39,8 @@ public class loginActivity extends AppCompatActivity {
                         password.getText().toString());
             }
         });
+
+
     }
 
     private void validate(String username, String pw){
