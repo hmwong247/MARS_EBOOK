@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="40px"/>
+            android:padding="10px"/>
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -31,52 +31,49 @@
             android:orientation="vertical"
             android:paddingTop="70px">
 
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                tools:srcCompat="@tools:sample/avatars" />
+
             <TextView
                 android:id="@+id/AccountName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="50px"
+                android:paddingTop="10px"
                 android:text="May lam"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="1px"
-                android:orientation="vertical"
-                android:paddingTop="1px">
 
                 <TextView
                     android:id="@+id/Colleague"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="50px"
-                    android:text="City University Hong Kong"
+                    android:text="City University of Hong Kong"
                     android:textAlignment="center"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="italic"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30px"
+                    android:layout_marginTop="20dp"
                     android:orientation="vertical"
-                    android:paddingTop="100px">
-
+                    android:paddingTop="20px"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingTop="50px"
                         android:text="Saved book"
                         android:textAlignment="center"
                         android:textSize="18sp"
                         android:textStyle="bold" />
-                </LinearLayout>
 
         </LinearLayout>
         </LinearLayout>
-    </LinearLayout></androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
