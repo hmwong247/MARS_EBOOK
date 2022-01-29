@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/drawable/ic_like.xml" value="0.2985" />
+        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/drawable/round.xml" value="0.196" />
+        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/drawable/roundbluebold.xml" value="0.196" />
+        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_login.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_upload_link.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/row_book_recycler.xml" value="0.33" />
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/row_chapter_recycler.xml" value="0.1" />
       </map>
