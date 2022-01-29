@@ -1,6 +1,9 @@
 package com.mars_ebook;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -28,5 +31,13 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView bookRecycler = (RecyclerView) findViewById(R.id.recycler_book);
         bookRecycler.setLayoutManager(new LinearLayoutManager(this));
         bookRecycler.setAdapter(new ChapterListAdapter(this, ChapterList));
-    }
+
+        final Button button = findViewById(R.id.loginButton);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent =new Intent(MainActivity.this,loginActivity.class);
+                startActivity(intent);
+            }
+});
+}
 }

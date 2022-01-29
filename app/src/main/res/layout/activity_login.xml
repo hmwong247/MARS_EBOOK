@@ -60,7 +60,7 @@
                     android:ems="10"
                     android:inputType="text"
                     android:padding="30px"
-                    android:text="Email"
+                    android:hint="Email"
                     android:textColor="#A8A8A8"
                     android:textSize="16sp" />
 
@@ -76,7 +76,7 @@
                     android:ems="10"
                     android:inputType="text"
                     android:padding="30px"
-                    android:text="Password"
+                    android:hint="Password"
                     android:textColor="#A8A8A8"
                     android:textSize="16sp" />
 
