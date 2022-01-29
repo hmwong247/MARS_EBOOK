@@ -2,7 +2,7 @@
 
 <!-- Insert your shape here: -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
+    android:shape="rectangle">
 
     <solid android:color="#ffffff" />
     <stroke
