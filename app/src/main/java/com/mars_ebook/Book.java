@@ -3,11 +3,13 @@ package com.mars_ebook;
 public class Book {
 
     private String title, author, publisher;
+    private int year;
 
-    public Book(String title, String author, String publisher) {
+    public Book(String title, String author, String publisher, int year) {
         this.title = title;
         this.author = author;
         this.publisher = publisher;
+        this.year = year;
     }
 
     public String getTitle() {
@@ -22,6 +24,10 @@ public class Book {
         return publisher;
     }
 
+    public int getYear() {
+        return year;
+    }
+
     public void setTitle(String title) {
         this.title = title;
     }
@@ -32,5 +38,9 @@ public class Book {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 }
