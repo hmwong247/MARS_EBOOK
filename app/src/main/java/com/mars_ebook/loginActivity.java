@@ -32,10 +32,10 @@ public class loginActivity extends AppCompatActivity {
     }
 
     private void validate(String username, String pw){
-        if((username =="may")&&(pw == "123")){
+        if((username.equals("test"))&&(pw.equals("test"))){
             Toast.makeText(getApplicationContext(),"Login success",Toast.LENGTH_LONG).show();
-            //Intent intent =new Intent(MainActivity.this,.class,accountActivity.class);
-            //startActivity(intent);4
+            Intent intent =new Intent(loginActivity.this,accountActivity.class);
+            startActivity(intent);
         }else{
             Toast.makeText(getApplicationContext(),"Login fail",Toast.LENGTH_LONG).show();
         }
