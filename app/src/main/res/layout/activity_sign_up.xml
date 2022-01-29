@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SignUpActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="50px"
-                android:text="Log In"
+                android:text="Sign Up"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -47,6 +48,32 @@
                 android:layout_marginTop="30px"
                 android:orientation="vertical"
                 android:paddingTop="100px">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="40px"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="250dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="250dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+
+                            android:baselineAlignBottom="false"
+                            android:scaleType="centerCrop"
+                            android:src="@color/black" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <EditText
                     android:id="@+id/editTextEmail"
@@ -80,6 +107,22 @@
                     android:textColor="#A8A8A8"
                     android:textSize="16sp" />
 
+                <EditText
+                    android:id="@+id/editTextSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="10px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="10px"
+                    android:background="@drawable/roundblue"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="30px"
+                    android:text="College / School"
+                    android:textColor="#A8A8A8"
+                    android:textSize="16sp" />
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -93,12 +136,12 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/loginButton"
+                    android:id="@+id/signupButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:backgroundTint="@color/blue_dark"
-                    android:text="Log In"
+                    android:text="Sign Up"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     app:cornerRadius="40px"
@@ -106,12 +149,12 @@
                     app:strokeWidth="1dp" />
 
                 <Button
-                    android:id="@+id/signupButton"
+                    android:id="@+id/loginButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:backgroundTint="@color/white"
-                    android:text="Sign Up"
+                    android:text="Log In"
                     android:textColor="@color/blue_dark"
                     android:textStyle="bold"
                     app:cornerRadius="40px"
@@ -123,6 +166,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
