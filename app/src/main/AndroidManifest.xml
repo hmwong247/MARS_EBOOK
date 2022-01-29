@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MARS_EBOOK">
         <activity
-            android:name=".LoginActivity"
+            android:name=".ViewBookActivity"
             android:exported="false" />
         <activity
             android:name=".UploadLinkActivity"

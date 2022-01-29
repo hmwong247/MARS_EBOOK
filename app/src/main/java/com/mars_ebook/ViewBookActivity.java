@@ -1,13 +1,14 @@
-package com.example.mars_ebook;
+package com.mars_ebook;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class UploadLinkActivity extends AppCompatActivity {
+public class ViewBookActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_upload_link);
+        setContentView(R.layout.activity_view_book);
     }
 }
