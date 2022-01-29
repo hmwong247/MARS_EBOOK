@@ -13,6 +13,9 @@
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
+            android:name=".ChapterActivity"
+            android:exported="false"/>
+        <activity
             android:name=".loginActivity"
             android:exported="false" />
         <activity
