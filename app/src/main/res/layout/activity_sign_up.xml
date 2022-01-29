@@ -69,7 +69,7 @@
 
                             android:baselineAlignBottom="false"
                             android:scaleType="centerCrop"
-                            android:src="@tools:sample/backgrounds/scenic" />
+                            android:src="@color/black" />
 
                     </androidx.cardview.widget.CardView>
 
