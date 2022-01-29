@@ -3,10 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< Updated upstream
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/drawable/ic_like.xml" value="0.2985" />
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/row_book_recycler.xml" value="0.33" />
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/row_chapter_recycler.xml" value="0.1" />
+=======
+        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.131" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/drawable/backgroudround.xml" value="0.1155" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/drawable/round.xml" value="0.1025" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/drawable/roundBlue.xml" value="0.1" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/drawable/roundBlueBold.xml" value="0.112" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/drawable/roundBlueBoldSolid.xml" value="0.1" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/layout/activity_saved_book.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/layout/activity_upload_link.xml" value="0.22" />
+        <entry key="..\:/Users/kwan_/Documents/GitHub/MARS_EBOOK/app/src/main/res/layout/activity_view_book.xml" value="0.16354166666666667" />
+>>>>>>> Stashed changes
       </map>
     </option>
   </component>
