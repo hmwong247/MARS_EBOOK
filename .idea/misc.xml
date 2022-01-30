@@ -3,20 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< Updated upstream
+=======
         <entry key="..\:/Users/ASUS/Documents/MARS_EBOOK4/app/src/main/res/drawable/roundblue.xml" value="0.259" />
         <entry key="..\:/Users/ASUS/Documents/MARS_EBOOK4/app/src/main/res/layout/activity_account.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Documents/MARS_EBOOK4/app/src/main/res/layout/activity_chapter.xml" value="0.13541666666666666" />
         <entry key="..\:/Users/ASUS/Documents/MARS_EBOOK4/app/src/main/res/layout/activity_login.xml" value="0.22554347826086957" />
         <entry key="..\:/Users/ASUS/Documents/MARS_EBOOK4/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/Documents/MARS_EBOOK4/app/src/main/res/layout/activity_sign_up.xml" value="0.12335359675785208" />
         <entry key="..\:/Users/ASUS/Documents/MARS_EBOOK4/app/src/main/res/layout/activity_upload_link.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Documents/MARS_EBOOK4/app/src/main/res/layout/row_book_recycler.xml" value="0.13541666666666666" />
         <entry key="..\:/Users/ASUS/Documents/MARS_EBOOK4/app/src/main/res/layout/row_chapter_recycler.xml" value="0.1125" />
+>>>>>>> Stashed changes
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/drawable/ic_like.xml" value="0.2985" />
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/drawable/round.xml" value="0.196" />
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/drawable/roundbluebold.xml" value="0.196" />
-        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_login.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_upload_link.xml" value="0.33" />
-        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/row_book_recycler.xml" value="0.5" />
-        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/row_chapter_recycler.xml" value="0.5" />
+        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/activity_upload_link.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/row_book_recycler.xml" value="0.33" />
+        <entry key="..\:/Users/hmwong/AndroidStudioProjects/MARS_EBOOK/app/src/main/res/layout/row_chapter_recycler.xml" value="0.1" />
       </map>
     </option>
   </component>
