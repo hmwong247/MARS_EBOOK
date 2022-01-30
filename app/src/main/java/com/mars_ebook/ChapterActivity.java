@@ -19,7 +19,7 @@ public class ChapterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_chapter);
 
         List<Chapter> ChapterList = new ArrayList<Chapter>();
         ChapterList.add(new Chapter("1", "aa", "a1", 1, 1));

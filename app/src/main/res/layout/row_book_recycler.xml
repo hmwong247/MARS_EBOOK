@@ -18,10 +18,8 @@
             android:layout_height="133dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="176dp"
             app:cardElevation="9dp"
             app:cardUseCompatPadding="true"
-            app:layout_constraintEnd_toStartOf="@+id/chapterButton"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_launcher_background" />
@@ -98,16 +96,6 @@
             android:text="PUBLISHER"
             app:layout_constraintStart_toStartOf="@+id/tv_author"
             app:layout_constraintTop_toTopOf="@+id/textView5" />
-
-        <Button
-            android:id="@+id/chapterButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="chapter"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/img_bookcover" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
