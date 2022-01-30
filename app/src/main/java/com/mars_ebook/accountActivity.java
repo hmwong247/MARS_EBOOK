@@ -20,13 +20,13 @@ public class accountActivity extends AppCompatActivity {
         setContentView(R.layout.activity_account);
 
         List<Book> BookList = new ArrayList<Book>();
-        BookList.add(new Book("1", "aa", "a1", 1356));
-        BookList.add(new Book("2", "aa", "a1", 1356));
-        BookList.add(new Book("3", "aa", "a1", 1356));
-        BookList.add(new Book("4", "aa", "a1", 1356));
-        BookList.add(new Book("5", "aa", "a1", 1356));
-        BookList.add(new Book("6", "aa", "a1", 1356));
-        BookList.add(new Book("7", "aa", "a1", 1356));
+        BookList.add(new Book("Interpersonal communication", "Peter Hartley.", "2nd ed. London ; New York : Routledge, 1999"));
+        BookList.add(new Book("Physics", "John D. Cutnell & Kenneth W. Johnson.", "7th ed. Hoboken, NJ : Wiley, c2007"));
+        BookList.add(new Book("Sybase architecture and administration", "John Kirkwood.", "New York ; London : Ellis Horwood, 1993"));
+        BookList.add(new Book("Critical and clinical cartographies : architecture, robotics, medicine, philosophy", "edited by Andrej Radman and Heidi Sohn.", "Edinburgh : Edinburgh University Press, 2017"));
+        BookList.add(new Book("Mathematics for Computer Graphics", "by John Vince.", "4th ed. 2014. London : Springer London : Imprint: Springer, 2014"));
+        BookList.add(new Book("Materials science and design for engineers", "Zainul Huda and Robert Bulpett.", "Zurich-Durnten, Switzerland ; Enfield, New Hampshire : Trans Tech Publications, 2012"));
+        BookList.add(new Book("Combinatorial materials science", "edited by Balaji Narasimhan, Surya K. Mallapragada, Marc D. Porter.", "Hoboken, N.J. : Wiley-Interscience, c2007"));
 
         RecyclerView bookRecycler = (RecyclerView) findViewById(R.id.recycler_book);
         bookRecycler.setLayoutManager(new LinearLayoutManager(this));

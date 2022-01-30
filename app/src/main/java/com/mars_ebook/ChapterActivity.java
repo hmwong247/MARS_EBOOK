@@ -22,11 +22,11 @@ public class ChapterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_chapter);
 
         List<Chapter> ChapterList = new ArrayList<Chapter>();
-        ChapterList.add(new Chapter("1", "aa", "a1", 1, 1));
-        ChapterList.add(new Chapter("2", "bb", "a2", 1, 1));
-        ChapterList.add(new Chapter("3", "cc", "a3", 1, 1));
-        ChapterList.add(new Chapter("4", "dd", "a4", 1, 1));
-        ChapterList.add(new Chapter("5", "ee", "a5", 1, 1));
+        ChapterList.add(new Chapter("Ch1", "Getting Started", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", 123, 62));
+        ChapterList.add(new Chapter("Ch2", "Getting Started", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", 123, 67));
+        ChapterList.add(new Chapter("Ch3", "Getting Good", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", 69, 88));
+        ChapterList.add(new Chapter("Ch4", "Getting Great", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", 169, 69));
+        ChapterList.add(new Chapter("Ch5", "Keep it on", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", 66, 48));
 
         RecyclerView bookRecycler = (RecyclerView) findViewById(R.id.recycler_book);
         bookRecycler.setLayoutManager(new LinearLayoutManager(this));
