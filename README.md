@@ -1,8 +1,7 @@
 # MARS_EBOOK
 # CityHack22 Project Submission
 ## Project: < Reflink >
-<img src="../assets/img/LOGOS/logo1.png" width="200" alt="project_logo"/>
-
+##Project logo
 ![mars_logo](https://user-images.githubusercontent.com/64601280/151687599-65944191-5b1d-4bb2-b7c8-61999dbc0771.png)
 
 ## Team: < MARS>
